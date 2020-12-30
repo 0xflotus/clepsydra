@@ -71,7 +71,7 @@ Nothing's perfect, and this crate is anything but:
    deterministic and must have deterministic _read and write sets_. If they
    cannot have their read and write sets statically computed (eg. if they
    rely on the data to decide read and write set) you have to build slightly
-   awkward multi-phase txns. The term in the literature is "reconnaisance
+   awkward multi-phase txns. The term in the literature is "reconnaissance
    queries".
 
 ### Reference
